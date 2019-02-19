@@ -2,8 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const Home = resolve => require(['@/views/Home'], resolve)
-const Help = resolve => require(['@/views/Help'], resolve)
-const About = resolve => require(['@/views/About'], resolve)
+const Function = resolve => require(['@/views/Function'], resolve)
+const Qq = resolve => require(['@/views/Qq'], resolve)
+const OfficialAccount = resolve => require(['@/views/OfficialAccount'], resolve)
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
 Vue.use(Router)
@@ -14,12 +15,16 @@ let routes = [
         component: Home
     },
     {
-        path: '/help',
-        component: Help
+        path: '/functions',
+        component: Function
     },
     {
-        path: '/about',
-        component: About
+        path: '/qq',
+        component: Qq
+    },
+    {
+        path: '/officialAccount',
+        component: OfficialAccount
     },
     {
         path: '*',

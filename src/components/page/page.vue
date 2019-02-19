@@ -8,10 +8,16 @@
                 <ui-list-item title="首页" to="/">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
-                <ui-list-item title="帮助" to="/help">
+                <ui-list-item title="QQ群机器人" to="/qq">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
-                <ui-list-item title="关于" to="/about">
+                <ui-list-item title="微信公众号" to="/officialAccount">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="功能大全" to="/functions">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="关于" href="https://project.yunser.com/products/11d068b032d311e99c4181fba4f97851" target="_blank">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
             </ui-list>
