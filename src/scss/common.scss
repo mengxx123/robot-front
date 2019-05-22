@@ -1,9 +1,11 @@
-.ui-page-body {
-    -webkit-overflow-scrolling : touch;
-}
-input,
-textarea {
-  -webkit-appearance: none;
+// a {
+//   color: inherit;
+// }
+.common-container {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 16px 16px 80px 16px;
 }
 .ui-message {
   display: flex;

@@ -6,9 +6,9 @@
             </div>
             <ui-list @itemClick="toggle()">
                 <ui-list-item title="首页" to="/">
-                    <ui-icon slot="left" value="grade"/>
+                    <ui-icon slot="left" value="home"/>
                 </ui-list-item>
-                <ui-list-item title="QQ群机器人" to="/qq">
+                <ui-list-item title="QQ 群机器人" to="/qq">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
                 <ui-list-item title="微信公众号" to="/officialAccount">
@@ -18,7 +18,7 @@
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
                 <ui-list-item title="关于" href="https://project.yunser.com/products/11d068b032d311e99c4181fba4f97851" target="_blank">
-                    <ui-icon slot="left" value="grade"/>
+                    <ui-icon slot="left" value="info"/>
                 </ui-list-item>
             </ui-list>
         </div>

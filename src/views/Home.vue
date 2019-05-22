@@ -1,6 +1,8 @@
 <template>
     <my-page title="云设机器人">
-        开发中，点击查看 <router-link to="/functions">所有功能</router-link>
+        <div class="common-container container">
+            开发中，点击查看 <router-link to="/functions">所有功能</router-link>
+        </div>
     </my-page>
 </template>
 
